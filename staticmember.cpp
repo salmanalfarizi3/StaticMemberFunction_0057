@@ -12,4 +12,9 @@ public:
     void setID();
     void printAll();
 
-    
+    //pembuatan constructor Mahasiswa dengan parameter pnama
+    Mahasiswa(string pnama) : nama(pnama) {
+        setID();
+    }
+};
+
