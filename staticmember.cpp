@@ -18,3 +18,6 @@ public:
     }
 };
 
+// Inisialisasi variabel static (di luar class)
+int Mahasiswa::nim = 0;
+
