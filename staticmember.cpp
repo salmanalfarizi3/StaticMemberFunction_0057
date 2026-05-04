@@ -21,3 +21,6 @@ public:
 // Inisialisasi variabel static (di luar class)
 int Mahasiswa::nim = 0;
 
+void Mahasiswa::setID() {
+    id = ++nim;
+}
