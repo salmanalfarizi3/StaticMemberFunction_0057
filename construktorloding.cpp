@@ -28,3 +28,8 @@ mahasiswa::mahasiswa(int iNim, string iNama){
     nim = iNim;//Definisi nim dan nama
     nama =iNama;
 }
+void mahasiswa::cetak(){
+    cout<<"NIM :"<< nim << endl;
+    cout << "Nama:"<< nama<<endl;
+
+}
